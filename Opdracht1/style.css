@@ -28,3 +28,9 @@
 input[type="radio"] {
     display: block;
 }
+.sterk label{
+    cursor: pointer;
+}
+.zwak label{
+    cursor: pointer;
+}
