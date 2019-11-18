@@ -1,0 +1,30 @@
+.vet{
+    font-size: xx-large;
+    font-family: inherit;
+    font-weight: bolder;
+}
+/*.action{ 
+    font-family:'Roboto', sans-serif;
+    width:1843px;
+    padding: 20px;
+    border-style: solid;
+    border-color: black;
+}*/
+.wrap{
+    font-size: larger;
+    font-weight: bold;
+}
+.vraag{
+    font-weight: 500;
+}
+.welbevinden label{
+    display: inline-block;
+    padding: 1em;
+    background: pink;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 50%;
+}
+input[type="radio"] {
+    display: block;
+}

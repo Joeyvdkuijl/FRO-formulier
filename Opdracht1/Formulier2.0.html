@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<head>
+        <link rel="stylesheet" href="style.css">
+    <p class="vet">Een plan voor opleiding</p>
+    <p>om te kijken hoe jij goed je opleiding kan doen met je eerst dit formulier invullen.</p>
+    <form action="http://bla.hosts.ma-cloud.nl/pop.php" method="GET" >
+        Naam:
+        <input type="text" name="Naam" placeholder="bv. Hendrick Jansen">
+        <select name="keuze">
+            <option value="">selecteer jouw klas</option>
+            <option value="MG1A">MG1A</option>
+            <option value="MG1B">MG1B</option>
+            <option value="MG1C">MG1C</option>
+            <option value="geen">Ik weet het niet meer</option>
+        </select>
+
+
+        Birthday:
+        <input type="date" name="bday">
+
+</head>
+<br>
+<body>
+    <fieldset class="welbevinden">
+
+       <legend><p class="wrap">gedachte tot nu toe</p></legend>
+
+        <div class="action">
+        <p class="vraag">Hoe positief ben je nu op de opleiding?</p>
+        <label><input type="radio" name="positief" value="getal"> 1 </label>
+        <label><input type="radio" name="positief" value="getal"> 2 </label>
+        <label><input type="radio" name="positief" value="getal"> 3 </label>
+        <label><input type="radio" name="positief" value="getal"> 4 </label>
+        <label><input type="radio" name="positief" value="getal"> 5 </label>
+        <label><input type="radio" name="positief" value="getal"> 6 </label>
+        <label><input type="radio" name="positief" value="getal"> 7 </label>
+        <label><input type="radio" name="positief" value="getal"> 8 </label>
+        <label><input type="radio" name="positief" value="getal"> 9 </label>
+        <label><input type="radio" name="positief" value="getal"> 10 </label>
+        <p class="vraag">Hoe gemotiveerd ben je op de opleiding?</p>
+        <label><input type="radio" name="negatief" value="getal"> 1 </label>
+        <label><input type="radio" name="negatief" value="getal"> 2 </label>
+        <label><input type="radio" name="negatief" value="getal"> 3 </label>
+        <label><input type="radio" name="negatief" value="getal"> 4 </label>
+        <label><input type="radio" name="negatief" value="getal"> 5 </label>
+        <label><input type="radio" name="negatief" value="getal"> 6 </label>
+        <label><input type="radio" name="negatief" value="getal"> 7 </label>
+        <label><input type="radio" name="negatief" value="getal"> 8 </label>
+        <label><input type="radio" name="negatief" value="getal"> 9 </label>
+        <label><input type="radio" name="negatief" value="getal"> 10 </label>
+        <p class="vraag">Hoe zeker ben je van je eigen skills in programmeren?</p>
+        <label><input type="radio" name="neutraal" value="getal"> 1 </label>
+        <label><input type="radio" name="neutraal" value="getal"> 2 </label>
+        <label><input type="radio" name="neutraal" value="getal"> 3 </label>
+        <label><input type="radio" name="neutraal" value="getal"> 4 </label>
+        <label><input type="radio" name="neutraal" value="getal"> 5 </label>
+        <label><input type="radio" name="neutraal" value="getal"> 6 </label>
+        <label><input type="radio" name="neutraal" value="getal"> 7 </label>
+        <label><input type="radio" name="neutraal" value="getal"> 8 </label>
+        <label><input type="radio" name="neutraal" value="getal"> 9 </label>
+        <label><input type="radio" name="neutraal" value="getal"> 10 </label>
+ 
+</div>
+
+</fieldset>
+
+<fieldset>
+    <legend><p class="wrap"> Sterke kanten</p></legend>
+
+    <div class="action">
+        <p class="vraag">Wat zijn jou sterke kanten?</p>
+        <input type="checkbox" name="HTML/CSS" value="HTML/CSS"> Coderen in HTML/CSS
+        <input type="checkbox" name="Java" value="Java"> programmeren in Java
+        <input type="checkbox" name="Javascript" value="Javascript"> scripting: programmeren in Javascript
+        <input type="checkbox" name="plan" value="plan"> planning
+        <input type="checkbox" name="samenwerken" value="samenwerken"> samenwerken
+    </div>
+</fieldset>
+
+<fieldset>
+    <legend><p class="wrap"> Nog te ontwikkelen</p></legend>
+
+    <div class="action">
+        <p class="vraag">Aan welke skills moet je nog extra aandacht aan besteden?</p>
+        <input type="checkbox" name="HTML/CSS" value="HTML/CSS"> Coderen in HTML/CSS
+        <input type="checkbox" name="Java" value="Java"> programmeren in Java
+        <input type="checkbox" name="Javascript" value="Javascript"> scripting: programmeren in Javascript
+        <input type="checkbox" name="plan" value="plan"> planning
+        <input type="checkbox" name="samenwerken" value="samenwerken"> samenwerken
+    </div>
+</fieldset>
+
+<p class="wrap">Wat zijn jou plannen voor de toekomst?</p>
+<textarea name="plannen" rows="8" cols="60"></textarea><br><br>
+<input type="submit" value="Verstuur">
+<br>
+<br>
+
+    <div id="validatie">
+                <a href="http://validator.w3.org/check?uri=referer" target="_blank">
+                    <img src="http://blog.boyet.com/blog/files/media/image/valid-html5-blue.png" alt="Valide HTML5"></a>
+                <a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank">
+                    <img src="http://jigsaw.w3.org/css-validator/images/vcss-blue.gif" alt="Valide CSS">
+                </a>
+            </div>
+</form>
+</body>

@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei&display=swap'); /* font-family: 'ZCOOL XiaoWei', serif; */
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap'); /* font-family: 'Noto Sans', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    font-family: "ZCOOL XiaoWei", serif;
+    font-size: 24px;
+    margin: 5px;
+}
+
+#underHeader {
+    font-family: "ZCOOL XiaoWei", serif;
+    font-size: 17px;
+    margin: 0px 5px 5px 5px;
+}
+
+.naamForm p {
+    font-family: "ZCOOL XiaoWei", serif;
+    margin: 15px 5px 5px 5px;
+    display: inline;
+}
+
+.naamForm input {
+    font-family: "Noto Sans", sans-serif;
+    margin: 15px 5px 5px 5px;
+    padding: 5px;
+    display: inline;
+}
+
+.naamForm select {
+    padding: 5px;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.welbevinden {
+    float: left;
+    margin: 25px;
+}
+
+.welbevinden #hoofd {
+    font-family: "ZCOOL XiaoWei", serif;
+    font-size: 20px;
+    margin: 45px 5px 5px 5px;
+}
+
+.welbevinden #vraagUno {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 15px;
+    margin: 5px;
+}
+
+.welbevinden form {
+    margin: 15px;
+}
+
+.welbevinden form p {
+    font-family: "Noto Sans", sans-serif;
+    padding: 5px;
+    display: inline;
+}
+
+.sterkeKanten {
+    display: inline;
+    margin: 25px;
+}
+
+.sterkeKanten #hoofd {
+    font-family: "ZCOOL XiaoWei", serif;
+    font-size: 20px;
+    margin: 50px 5px 5px 5px;
+}
+
+.sterkeKanten #vraagDos {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 15px;
+    margin: 5px;   
+}
+
+.sterkeKanten form {
+    margin: 15px;
+}
+
+.sterkeKanten form p {
+    font-family: "Noto Sans", sans-serif;
+    padding: 5px;
+    display: inline;   
+}
+
+.nogTeOntwikkelen {
+    margin: 50px 25px 25px 25px;
+}
+
+.nogTeOntwikkelen #hoofd {
+    font-family: "ZCOOL XiaoWei", serif;
+    font-size: 20px;
+    margin: 50px 5px 5px 5px;
+}
+
+.nogTeOntwikkelen #vraagTres {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 15px;
+    margin: 5px;   
+}
+
+.nogTeOntwikkelen form {
+    margin: 5px;
+}
+
+.nogTeOntwikkelen form p {
+    font-family: "Noto Sans", sans-serif;
+    padding: 5px;
+    display: inline;   
+}
+
+.feedback {
+    margin: 50px 25px 25px 25px;
+}
+
+.feedback #hoofd {
+    font-family: "ZCOOL XiaoWei", serif;
+    font-size: 20px;
+    margin: 50px 5px 5px 5px;
+}
+
+.feedback #vraagQuatro {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 15px;
+    margin: 5px;   
+}
+
+.feedback form {
+    margin: 5px;
+}
+
+.feedback form p {
+    font-family: "Noto Sans", sans-serif;
+    padding: 5px;
+    display: inline;   
+}
+
+.toekomst {
+    margin: 50px 25px 25px 25px;
+    float: left;
+}
+
+.toekomst #hoofd {
+    font-family: "ZCOOL XiaoWei", serif;
+    font-size: 20px;
+    margin: 50px 5px 5px 5px;
+}
+
+.toekomst #vraagCinco {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 15px;
+    margin: 5px;   
+}
+
+.toekomst form {
+    margin: 5px;
+}
+
+.antwoordToekomst {
+    margin: 200px 25px 25px 25px;
+}
+
+.antwoordToekomst p {
+    font-family: "ZCOOL XiaoWei", serif;
+    font-size: 20px;
+    margin: 50px 5px 5px 5px;
+}
+
+#versturen {
+    margin: 50px 5px 5px 25px;
+    padding: 5px;
+    border-radius: 24px;
+}
+
+#validation img {
+    height: 1em;
+    width: auto;
+    border: 0;
+    margin: 0 .3em;
+}
